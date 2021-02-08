@@ -4,9 +4,9 @@
 
 
 import React, { Component } from "react";
-import Snake from "./snake/Snake";
-import Food from "./food/Food";
-import Help from "./help/Help";
+import Snake from "./components/snake/Snake";
+import Food from "./components/food/Food";
+import Help from "./components/help/Help";
 
 /* Method to generate food for the game */
 const getRandomCoordinates = () => {
